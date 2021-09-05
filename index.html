@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <main id='root'>
+        <p class='b-right' data-index="0"></p>
+        <p class='b-right' data-index="1"></p>
+        <p data-index="2"></p>
 
+        <p class='b-right b-top' data-index="3"></p>
+        <p class='b-right b-top' data-index="4"></p>
+        <p class='b-top' data-index="5"></p>
+
+        <p class='b-right b-top' data-index="6"></p>
+        <p class='b-right b-top' data-index="7"></p>
+        <p class='b-top' data-index="8"></p>
+    </main>
+    <section id='controls'>
+        <button id='reset-button'>New Game</button>
+        <label for="player-1">Player 1: </label>
+        <input type="text" name="player-1" id="player-1">
+        <label for="player-2">Player 2: </label>
+        <input type="text" name="player-2" id="player-2">
+    </section>
+    <footer>
+        <h3 id='winner'></h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

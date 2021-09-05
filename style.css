@@ -1,1 +1,53 @@
+html {
+    box-sizing: border-box;
+}
 
+h1,h2,h3,h4,h5,p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.b-left {
+    border-left: 1px solid black;
+}
+.b-right {
+    border-right: 1px solid black;
+}
+.b-top {
+    border-top: 1px solid black;
+}
+.b-bottom {
+    border-bottom: 1px solid black;
+}
+p {
+    text-align: center;
+    font-size: 98px;
+    padding-top:25%;
+}
+#root {
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3,150px);
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+}
+
+#controls button {
+    margin-right: 10px;
+}
+#player-1 {
+    margin-right: 10px;
+}
